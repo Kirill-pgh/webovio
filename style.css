@@ -102,18 +102,25 @@ img{
 	width: 0;
 	height: 0;
 	border-top: 4px solid transparent;
-	border-left:  7px solid  #FFD723;
+/*	border-left:  7px solid  #FFD723;*/
+    border-left: 7px solid ;
+    color: #D4D6D4;
 	border-bottom: 4px solid transparent;
 	padding-right: 10px;
 }
 
 
 .intro_get{
-	color: #FFD723;
+	color: #D4D6D4;
 	font-family: Poppins;
 	font-size: 16px;
  	font-weight: 700;
     line-height: normal;
+}
+
+
+.intro_get:hover, .triangle-right:hover {
+	color: #FFD723 ;
 }
 
 /*intro style end*/
@@ -236,12 +243,17 @@ img{
 
 
 .card_info_a1{
-	color: #FFD723;
+	color:  #D4D6D4;
 	font-family: Poppins;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: normal;
 	text-decoration-line: underline;
+}
+
+
+.card_info_a1:hover{
+	color:  #FFD723;
 }
 
 
@@ -255,13 +267,25 @@ img{
 }
 
 
+
+.card_info_a:hover{
+	color: #FFD723;
+}
+
+
 .triangle-right2{
 	width: 0;
 	height: 0;
 	border-top: 4px solid transparent;
-	border-left:  7px solid  #D4D6D4;;
+	border-left:  7px solid ;
+	color:  #D4D6D4;
 	border-bottom: 4px solid transparent;
 	padding-right: 10px;
+}
+
+
+.triangle-right2:hover{
+	color: #FFD723;
 }
 
 /*deation style end*/
@@ -402,17 +426,24 @@ img{
 }
 
 
-.info2_block_p{
+.info2_block_a{
 	display: block;
 }
 
 
-.block_p1{
+.block_a1{
+	display: block;
 	color: #B6C197;
 	font-family: Poppins;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 40px; 
+	text-decoration: none;
+}
+
+
+.block_a1:hover{
+	color: #556B2F;
 }
 
 .footer_info_hr2{
